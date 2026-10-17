@@ -51,7 +51,9 @@ Max 3 per group, 10 total.
 
 ## Install
 
-Download **`kari.zip`** from [Releases](../../releases). Not "Download ZIP" on the code page — that is the source, not the installable skill.
+Download from [Releases](../../releases), not "Download ZIP" on the code page (that is the source code):
+- **`kari.zip`** — for Claude, Claude Code and ChatGPT Business/Enterprise/Edu.
+- **`SKILL.md`** — for ChatGPT Free/Plus and other AIs.
 
 ### Claude (web, desktop)
 1. Turn on **Code execution and file creation** in **Settings → Capabilities**.
@@ -67,14 +69,14 @@ Unzip `kari.zip` and copy the `kari` folder to `~/.claude/skills/`.
 Sidebar → **Plugins** → **Skills** tab → **Create** → **Upload from your computer**, and choose `kari.zip`.
 
 ### ChatGPT — Free or Plus
-Skills upload is not available on personal plans. Unzip `kari.zip`, then:
-1. Start a new chat and attach `kari/SKILL.md`.
+Skills upload is not available on personal plans. Download `SKILL.md` from [Releases](../../releases), then:
+1. Start a new chat and attach `SKILL.md`.
 2. Type: `Follow the attached SKILL.md exactly. kari`
 
 If you have **Projects**, attach `SKILL.md` to a project and put the same line in its instructions, so every chat inside starts with Kari.
 
 ### Other AIs
-Any AI with web search can use it: give it the contents of `kari/SKILL.md` as instructions or as an attached file.
+Any AI with web search can use it: download `SKILL.md` from [Releases](../../releases) and give it to the AI as instructions or as an attached file.
 
 ## Known limits (beta)
 
